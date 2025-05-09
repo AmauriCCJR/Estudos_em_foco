@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+}
+form{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: darkgreen;
+    margin: 10% auto;
+    padding: 5% auto;
+}
+.esconder{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.btn-enviar{
+    margin: 15px auto;
+}
+.erro {
+    text-align: center;
+    background-color: rgb(209, 126, 126);
+    color: aliceblue;
+    border: 1px solid white;
+}
