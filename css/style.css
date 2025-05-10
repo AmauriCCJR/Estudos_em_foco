@@ -10,11 +10,24 @@ form{
     margin: 10% auto;
     padding: 5% auto;
 }
+
+nav, ul, li{
+    text-transform: uppercase;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
 .esconder{
     display: none;
 }
 .mostrar{
     display: block;
+}
+.icone{
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
 }
 .btn-enviar{
     margin: 15px auto;
@@ -24,4 +37,8 @@ form{
     background-color: rgb(209, 126, 126);
     color: aliceblue;
     border: 1px solid white;
+}
+.bem-vindo{
+    text-align: center;
+    margin: auto auto;
 }
